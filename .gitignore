@@ -1,8 +1,22 @@
+# DATA FILES (backup ke Google Drive, Jangan ke GitHub)
 data/
 *.csv
 *.xlsx
 *.xls
+
+# PYTHON
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
 .env
 venv/
+.ipynb_checkpoints/
+
+# OS FILES
+.DS_Store
+Thumbs.db
+desktop.ini
+*.key
+
+# CREDENTIALS (JANGAN PERNAH PUSH INI!)
+credentials.json
+token.json
